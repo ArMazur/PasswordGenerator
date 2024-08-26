@@ -12,9 +12,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // getting input from user
+        System.out.println("Enter number of uppercase characters:");
         int upperCaseCount = scanner.nextInt();
+        System.out.println("Enter number of lowercase characters:");
         int lowerCaseCount = scanner.nextInt();
+        System.out.println("Enter number of digits:");
         int digitsCount = scanner.nextInt();
+        System.out.println("Enter password length:");
         int length = scanner.nextInt();
 
 
